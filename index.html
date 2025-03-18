@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+        <title>Welcome to HTML 5 </title>
+     </head>
+     <body>
+        <h1>HTML5 Images, Lists, Tables & Forms</h1>
+        <h2>HTML Lists</h2>
+        <h3>Ordered Lists</h3>
+        <ol type="i" start="1">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java script</li>
+        </ol>
+        <h2>HTML Images</h2>
+        <img src="https://images.pexels.com/photos/16844113/pexels-photo-16844113/free-photo-of-woman-holding-blossoming-branch.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="woman holding blossomimg branch" width="330" height="350">
+        <h2>HTML Tables</h2>
+        <table border="2">
+              <caption>Student Information</caption>
+              <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td>Alexis John</td>
+                    <td>789 Pine Rd, Texas</td>
+                    <td>+555-456-7890</td>
+                    <td>alexisjohn@email.com</td>
+                </tr>
+                <tr>
+                    <td>Mary Wanjiru</td>
+                    <td>12 Moi Avenue, Nairobi</td>
+                    <td>+254 756 789012</td>
+                    <td>mary.wanjiru@email.com</td>
+                </tr>
+                <tr>
+                    <td>David Habimana</td>
+                    <td>10 KN 3 Ave, Kigali</td>
+                    <td>+250 792 567890</td>
+                    <td>david.habimana@emai.com</td>
+                </tr>
+                <tr>
+                    <td>Kabelo Molefe</td>
+                    <td>45 Florida Rd, Durban</td>
+                    <td>+27 71 234 5678</td>
+                    <td>kabelo.molefe@email.com</td>
+                </tr>
+                <tr>
+                    <td>Aisha Mohamed</td>
+                    <td>305 Zambia Rd, Dar es salaam</td>
+                    <td>+255 678 910123</td>
+                    <td>aisha.mohamed@email.com</td>
+                </tr>
+              </tbody>
+        </table>
+        <h2>HTML Forms</h2>
+        <form action="" method="">
+            <label for="name">Name:</label>
+            <input type="text" id="student_name" name="student_name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="usermail" required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" minlength="8" maxlength="20">
+            <br><br>
+            <label for="date">Date of birth:</label>
+            <input type="date" id="date of birth" name="date of birth"required>
+            <br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" value="female">Female
+            <input type="radio" id="gender" name="gender" value="male"> Male
+            <br><br>
+            <label fo="country">Country:</label>
+            <select name="country" id="country">
+                <option>--Select Country--</option>
+                <option value="US">United States</option>
+                <option value="kenya">Kenya</option>
+                <option value="rwanda">Rwanda</option>
+                <option value="SA">South Africa</option>
+                <option value="tanzania">Tanzania</option>
+            </select>
+            <br><br>
+            <label for="hobbies">Hobbies:</label>
+            <input type="checkbox" name="hobbies" values="sports">Sports
+            <input type="checkbox" name="hobbies" values="art">Art
+            <input type="checkbox" name="hobbies" values="travel">Travel
+            <input type="checkbox" name="hobbies" values="photography">Photography
+            <input type="checkbox" name="hobbies" values="reading">Reading
+        </form>
+     </body>
+</html>
